@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: rgb(92, 129, 174);
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgb(92, 129, 174);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(92, 129, 174);
+  border-color: rgb(92, 129, 174);
+}
+
+.btn--flat {
+  cursor: pointer;
+  font: inherit;
+  color: rgb(92, 129, 174);
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color: rgb(92, 129, 174);
+  color: white;
+}

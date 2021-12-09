@@ -1,0 +1,7 @@
+.ratings {
+  text-align: center;
+}
+
+.ratings > button {
+  font-size: 1.25rem;
+}

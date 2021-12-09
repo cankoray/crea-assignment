@@ -1,0 +1,21 @@
+.container {
+  color: rgb(72, 72, 72);
+  font-size: 12px !important;
+  line-height: 16px !important;
+  padding: 3px 0;
+}
+
+.symbol {
+  position: relative;
+  top: -0.3em;
+  font-size: 11px;
+  line-height: normal;
+  color: #b12704;
+  font-weight: 400;
+}
+
+.whole {
+  font-size: 17px;
+  color: #b12704;
+  font-weight: 400;
+}

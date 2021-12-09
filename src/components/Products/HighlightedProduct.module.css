@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  padding: 10px;
+}
+
+.panel img {
+  max-width: 100%;
+}
+
+.img-wrapper {
+  padding: 0 10px;
+}
+
+.product {
+  padding: 3rem;
+  margin: auto;
+}
+
+.product figcaption {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: right;
+  color: #a1e0e0;
+}
